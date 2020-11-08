@@ -42,3 +42,17 @@ http://localhost:7071/api/orchestrators/TurkeyOrchestrator
 3. Open up the URL associated with `statusQueryGetUri` in a new window.
 
 4. Look at the value under `output`
+
+## Sample Output
+
+Input:
+
+```
+7
+```
+
+Output:
+
+```
+{"name":"TurkeyOrchestrator","instanceId":"6ba41a20f1144fc49c42979ad424e785","runtimeStatus":"Completed","input":null,"customStatus":null,"output":"For a 7 lb turkey, you want 16.8 hours of brine time, 105 minutes of roast time, 0.35 cups of salt, 4.62 gallons of water, 0.91 cups of brown sugar, 1.4 shallots, 2.8 cloves of garlic, 0.91 tablespoons of whole peppercorns, 0.91 tablespoons of dried juniper berries, 0.91 tablespoons of fresh rosemary, 0.42 tablespoons of thyme.","createdTime":"2020-11-08T00:07:07Z","lastUpdatedTime":"2020-11-08T00:07:08Z"}
+```
