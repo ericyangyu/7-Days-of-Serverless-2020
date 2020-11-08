@@ -29,11 +29,11 @@ def _calculate_turkey_brine_equation_and_roast_recommendation(weight: int) -> di
     # Round all our decimal places to 2 decimal places
     recommendations = {key: np.around(value, 2) for key, value in recommendations.items()}
 
-    # Convert dict to nice string
+    # Convert dict to pretty string
     recommendations = ', '.join([str(value) + ' ' + key for key, value in recommendations.items()])
     recommendations = f'For a {weight} lb turkey, you want ' + recommendations + '.'
 
     return recommendations
 
-def main(weight: int) -> dict:
+def main(weight: int) -> str:
     return _calculate_turkey_brine_equation_and_roast_recommendation(weight)
