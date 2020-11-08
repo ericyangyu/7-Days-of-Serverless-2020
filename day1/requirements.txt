@@ -5,4 +5,3 @@
 azure-functions
 azure-functions-durable>=1.0.0b6
 numpy==1.17.3
-json5==0.8.4
