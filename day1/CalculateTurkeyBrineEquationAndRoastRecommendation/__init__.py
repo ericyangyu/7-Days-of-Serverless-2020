@@ -10,7 +10,7 @@ import logging
 import json
 import numpy as np
 
-def _calculate_turkey_brine_equation_and_roast_recommendation(weight: int) -> dict:
+def _calculate_turkey_brine_equation_and_roast_recommendation(weight: int) -> str:
     # Generate recommendations for ingredients and brine/roast times with respect to turkey weight
     recommendations = {
         'hours of brine time': 2.4 * weight,
